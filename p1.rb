@@ -8,6 +8,6 @@ def extract_urls(text)
   text.scan(pattern).each { |url| puts url }
 end
 
-sample_text = "Visit our site at http://www.example.org for more information. Check out our search page at https://example.com/search?q=ruby+regex. Don’t forget to ftp our resources at ftp://example.com/resources."
+sample_text = "https://memphis.zoom.us/j/86856475504?pwd=NDQ2VlRGazZwdmJIcjk2aGdNNFpQZz09Visit our site at http://www.example.org for more information. Check out our search page at https://example.com/search?q=ruby+regex. Don’t forget to ftp our resources at ftp://example.com/resources."
 
 extract_urls(sample_text)
